@@ -1,0 +1,12 @@
+{
+  "name": "adm-pcm",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["apps/web"],
+  "scripts": {
+    "dev": "npm run dev --workspace=@adm-pcm/web",
+    "build": "npm run build --workspace=@adm-pcm/web",
+    "typecheck": "npm run typecheck --workspace=@adm-pcm/web",
+    "test": "npm run test --workspace=@adm-pcm/web"
+  }
+}
